@@ -1,6 +1,8 @@
 
 
+let y = prompt("Choose paper, rock or scissor: ");
 for(var i = 0; i < 5; i++){    
+    let y = prompt("Choose paper, rock or scissor: ");
     let random = math.floor(Math.random()* 3);
         let choice; 
         if(random = 0){
@@ -18,7 +20,7 @@ for(var i = 0; i < 5; i++){
     
     
     
-        const playerSelection = prompt("Choose paper, rock or scissor: ");
+        const playerSelection = y
       const computerSelection = getComputerChoice();
             counter = 0;
             playerSelection = playerSelection.toLowerCase(); 
