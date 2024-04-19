@@ -13,6 +13,7 @@ if (countergame == 0 or 1 0r 2 0r 3 0r 4){
             let choice = 'scissors'
         }
         return choice
+    console.log(choice)
     
     
     
@@ -64,16 +65,8 @@ if (countergame == 0 or 1 0r 2 0r 3 0r 4){
             }
 }
 h = 5 - counter 
-print(counter, h)
+return(counter, h)
 
-
-    
-      
-
-
-const playerSelection = prompt("Choose paper, rock or scissor: ");
-  const computerSelection = getComputerChoice();
-console.log("You win")
 
 
   
