@@ -1,5 +1,5 @@
 countergame = 0
-if countergame == 0 or 1 0r 2 0r 3 0r 4:
+if (countergame == 0 or 1 0r 2 0r 3 0r 4){
     
     let random = math.floor(Math.random()* 3)
         let choice; 
@@ -62,6 +62,7 @@ if countergame == 0 or 1 0r 2 0r 3 0r 4:
                 countergame = +1
     
             }
+}
 h = 5 - counter 
 print(counter, h)
 
