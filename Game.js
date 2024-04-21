@@ -79,6 +79,10 @@ for(var i = 0; i < 5; i++){
     playRound(playerSelection, computerSelection);
 
 }
+   const playerSelection = getplayerChoice();
+    const computerSelection = ComputerChoice();
+    playRound(playerSelection, computerSelection);
+
 
 
 
